@@ -1,0 +1,257 @@
+
+*{ 
+    opacity: 0.9;
+    
+}
+
+
+body {
+    background-color: black;
+    text-align: center;
+    
+    
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    margin-right: 100%;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+    
+    
+    background-color: black;
+    padding-top: 0;
+    position: sticky;
+    font-family: arial;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    text-decoration: underline;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+.logo{
+    height: 50px;
+    
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 15px;
+}
+.title{
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 2;
+    flex-basis: 1200px;
+    height: 700px;
+
+    background-image: url(./images-tea-cozey/img-mission-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: helvetica;
+    align-items: center;
+    
+    
+
+   
+}
+
+#mission-title {
+    background-color: black;
+    top:0;
+    left:0;
+    width:100%;
+    height: 40px;
+    margin-bottom: 0;
+    color: seashell;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    
+    
+
+}
+#mission-description {
+    background-color: black;
+    top:0;
+    left:0;
+    width:100%;
+    height: 40px;
+    margin-top: 0;
+    color: seashell;
+ 
+}  
+
+
+.tea-of-the-month {
+    text-align: center;
+    padding: 40px;
+    font-family: helvetica;
+    color: seashell;
+    width: 1000px;
+    display: inline-block;
+    
+    
+    
+    
+
+}
+.specials {
+    display: flex;
+    font-family: helvetica;
+    color: seashell;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 1200px;
+    height: 600px;
+    padding: 100px;
+
+
+}
+
+
+.image {
+    height: 200px;
+    width: 300px;
+}
+    
+#special1 {
+    margin-top: 10px;
+}
+
+#special2 {
+    margin-top: 10px;
+}
+
+#special3 {
+    margin-top: 10px;
+}
+
+#special4 {
+    margin-top: 10px;
+}
+
+#special5 {
+    margin-top: 10px;
+}
+
+.locations {
+    background-image: url(./images-tea-cozey/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 2;
+    z-index: 3;
+    line-height: 2;
+    padding-bottom: 100px;
+    height: 500px;
+    text-align: center;
+    font-family: Helvetica;
+    color: seashell;
+    
+}
+
+
+
+.adderesses{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    flex-shrink: 2;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+    
+}
+
+.downtown {
+    background-color: black;
+    color:seashell;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.9;
+    
+}
+
+.east-bayside {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+    
+}
+
+.Oakdale {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+    
+}
+
+footer{
+    color: seashell;
+    font-family: helvetica;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.contact {
+
+    text-align: center;
+}
+.email {
+    color: seashell;
+   
+}
+
+.copywright {
+    text-align: left;
+}
