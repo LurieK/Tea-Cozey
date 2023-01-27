@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    text-align: center;
+    text-align: center !important;
     
     
 }
@@ -21,8 +21,8 @@ header {
     display: flex;
     justify-content: space-between;
     height: 69px;
-    width: 100%;
-    margin-right: 100%;
+    width: 100% ;
+    margin-left:30px ;
     top: 0;
     border-bottom: 1px solid seashell;
     z-index: 2;
@@ -47,6 +47,7 @@ header {
 
 .logo{
     height: 50px;
+    margin-left: 10px;
     
 }
 
@@ -99,7 +100,7 @@ h5 {
     height: 40px;
     margin-bottom: 0;
     color: seashell;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     padding-top: 10px;
     
     
@@ -249,7 +250,6 @@ footer{
 }
 .email {
     color: seashell;
-   
 }
 
 .copywright {
